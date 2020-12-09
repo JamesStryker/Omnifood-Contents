@@ -1,0 +1,83 @@
+@import "_variables";
+@import "_main";
+@import "_header";
+@import "_nav";
+@import "_components";
+
+// /*-----------------*/
+//     /*How it Works*/
+// /*-----------------*/
+
+/*-----------------*/
+    /*Meals*/
+/*-----------------*/
+
+#meals{
+    padding:0;
+    margin: -10% 0 -5% 0;
+}
+.meal-showcase{
+    width:100%;
+}
+.meal-showcase li{
+    display: block;
+    float: left;
+    width:25%;
+}
+.meal-photo{
+    overflow: hidden;
+    width:100%;
+    background-color: black;
+}
+.meal-photo img{
+    width:100%;
+    height:auto;
+    opacity:.7;
+    transform: scale(1.15);
+    transition: transform .3s;
+}
+.meal-photo img:hover{
+    transform: scale(1.05);
+    opacity:1;
+}
+  /*-----------------*/
+    /*App Showing*/
+/*-----------------*/
+.phoneImg{
+    height:80vh;
+}
+.appShow-box{
+    margin-top:25px;
+}
+.appShow-box:first-child{
+    padding-right: 3%;
+}
+.appShow-box:last-child{
+    margin-top: 70px;
+}
+.appStep{
+    width:80%;
+    font-size: 1.8em;
+    margin:auto;
+    padding:20px 0;
+
+    div{
+        color: $color-primary;
+        float:left;
+        border: 2px solid $color-primary;
+        border-radius: 50%;
+        height:50px;
+        width:50px;
+        padding:5px 3px 1px 3px;
+        font-size: 140%;
+        margin-right: 30px;
+    }
+}
+
+.steps{
+  
+}
+.app-btn{
+    height:40px;
+    width:auto;
+}
