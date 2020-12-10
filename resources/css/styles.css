@@ -209,6 +209,7 @@ h3 {
 /*Meals*/
 /*-----------------*/
 #meals {
+  height: 70vh;
   padding: 0;
   margin: -10% 0 -5% 0;
 }
@@ -288,5 +289,13 @@ h3 {
 .app-btn {
   height: 40px;
   width: auto;
+}
+
+/*-----------------*/
+/*App Showing*/
+/*-----------------*/
+#cities {
+  height: 100vh;
+  margin-top: 30px;
 }
 /*# sourceMappingURL=styles.css.map */
