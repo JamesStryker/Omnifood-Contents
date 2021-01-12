@@ -29,6 +29,18 @@ section {
   text-align: center;
 }
 
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:after {
+  content: " ";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
 /*-----------------*/
 /*HEADER*/
 /*-----------------*/
@@ -50,7 +62,7 @@ header {
 }
 
 h1, h2 {
-  margin-bottom: 10px;
+  margin: 0 0 10px 0;
   font-size: 4em;
   font-weight: 300;
   text-transform: uppercase;
@@ -251,8 +263,12 @@ h3 {
 /*-----------------*/
 /*App Showing*/
 /*-----------------*/
+#appShow {
+  margin-top: 50px;
+}
+
 .phoneImg {
-  height: 80vh;
+  height: 60vh;
 }
 
 .appShow-box {
@@ -286,16 +302,19 @@ h3 {
   margin-right: 30px;
 }
 
+.appStep:last-of-type {
+  margin-bottom: 80px;
+}
+
 .app-btn {
   height: 40px;
   width: auto;
 }
 
 /*-----------------*/
-/*App Showing*/
+/*Cities*/
 /*-----------------*/
 #cities {
   height: 100vh;
-  margin-top: 30px;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -44,8 +44,11 @@
   /*-----------------*/
     /*App Showing*/
 /*-----------------*/
+#appShow{
+    margin-top: 50px;
+}
 .phoneImg{
-    height:80vh;
+    height:60vh;
 }
 .appShow-box{
     margin-top:25px;
@@ -74,18 +77,16 @@
         margin-right: 30px;
     }
 }
-
-.steps{
-  
+.appStep:last-of-type{
+    margin-bottom:80px;
 }
 .app-btn{
     height:40px;
     width:auto;
 }
   /*-----------------*/
-    /*App Showing*/
+    /*Cities*/
 /*-----------------*/
 #cities{
     height:100vh;
-    margin-top: 30px;
 }

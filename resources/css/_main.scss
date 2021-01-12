@@ -22,3 +22,11 @@ section{
     background-color: #6F7478;
     text-align: center;
   }
+.clearfix{zoom:1}
+.clearfix:after{
+    content:" ";
+    clear:both;
+    display:block;
+    height:0;
+    visibility: hidden;
+}
